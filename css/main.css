@@ -23,6 +23,7 @@ body {
 
 section {
   background-color: #e2e2e2;
+  padding-bottom: 1rem;
 }
 
 .section-text {
@@ -41,7 +42,6 @@ p {
 .img-flex {
   display: block;
   width: 100%;
-  padding-bottom: 1rem;
 }
 
 .btn {
@@ -51,6 +51,10 @@ p {
   border-radius: 4px;
   color: #fff;
   text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
@@ -68,6 +72,16 @@ p {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .section-text {
+    display: inline-block;
+    width: 48%;
+  }
+
+  .img-flex {
+    display: inline-block;
+    width: 48%;
   }
 
 }
