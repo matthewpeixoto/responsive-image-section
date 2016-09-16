@@ -74,14 +74,21 @@ p {
     line-height: 1.4;
   }
 
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .section-text {
     display: inline-block;
     width: 48%;
+    vertical-align: middle;
   }
 
   .img-flex {
     display: inline-block;
     width: 48%;
+    vertical-align: middle;
   }
 
 }
