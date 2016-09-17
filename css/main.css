@@ -38,7 +38,6 @@ h1 {
 
 p {
   margin-top: 0;
-  margin-bottom: 2rem;
 }
 
 .img-flex {
@@ -47,6 +46,7 @@ p {
 }
 
 a {
+  display: inline-block;;
   padding: .5em .75em;
 
   background-color: #555;
@@ -84,7 +84,7 @@ a:hover {
   .img-flex {
     display: inline-block;
     vertical-align: middle;
-    width: 49.5%;
+    width: 48%;
     max-width: 500px;
 
   }
